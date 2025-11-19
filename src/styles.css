@@ -1,0 +1,11 @@
+/* Color tokens for Monter brand */
+:root{
+  --ivory: #FAF7F2; /* Soft Ivory */
+  --teal: #0FB5B3; /* Tropical Teal */
+}
+
+.bg-ivory{ background-color: var(--ivory); }
+.text-ivory{ color: var(--ivory); }
+.bg-teal{ background-color: var(--teal); }
+.text-teal{ color: var(--teal); }
+.border-teal\/10{ border-color: color-mix(in oklab, var(--teal) 10%, transparent); }
